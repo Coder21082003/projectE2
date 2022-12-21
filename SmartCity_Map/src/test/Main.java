@@ -3,6 +3,7 @@ package test;
 import data.RoutingData;
 import data.RoutingService;
 import java.awt.Point;
+import java.awt.Toolkit;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -32,7 +33,9 @@ public class Main extends javax.swing.JFrame {
 
     public Main() {
         initComponents();
+        
         init();
+        setIconImage();
     }
 
     private void init() {
@@ -140,6 +143,7 @@ public class Main extends javax.swing.JFrame {
         jPopupMenu1.add(menuEnd);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1600, 900));
 
         jXMapViewer.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -300,4 +304,8 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuEnd;
     private javax.swing.JMenuItem menuStart;
     // End of variables declaration//GEN-END:variables
+
+    private void setIconImage() {
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icon/icon.png")));
+    }
 }
