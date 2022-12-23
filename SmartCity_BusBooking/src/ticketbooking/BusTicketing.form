@@ -68,7 +68,7 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Component id="jButtonTotal" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       <Component id="jPanel4" min="-2" pref="143" max="-2" attributes="0"/>
@@ -100,7 +100,7 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="279" max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" pref="790" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -318,7 +318,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="22" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="No. of Passangers "/>
+            <Property name="text" type="java.lang.String" value="No.of Passangers "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel15">
@@ -475,23 +475,25 @@
                               <Component id="jComboBoxTime" max="32767" attributes="0"/>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jRadioButtonFirstClass1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jRadioButtonFirstClass1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jRadioButtonSingle1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRadioButtonReturn1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButtonEconomy1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jRadioButtonSingle1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="jDateChooser" alignment="0" min="-2" pref="222" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jRadioButtonReturn1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jRadioButtonEconomy1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jDateChooser" min="-2" pref="222" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="57" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -559,14 +561,27 @@
         <Component class="javax.swing.JComboBox" name="jComboBoxDestination">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="7">
-                <StringItem index="0" value="Select Destination "/>
-                <StringItem index="1" value="Himamaylan"/>
-                <StringItem index="2" value="Binalbagan"/>
-                <StringItem index="3" value="Kabankalan"/>
-                <StringItem index="4" value="Bacolod"/>
-                <StringItem index="5" value="Hinigaran"/>
-                <StringItem index="6" value="Isabela"/>
+              <StringArray count="20">
+                <StringItem index="0" value="Ba Na Hills"/>
+                <StringItem index="1" value="Son Tra Penisula"/>
+                <StringItem index="2" value="The Marble Mountains"/>
+                <StringItem index="3" value="Han Market"/>
+                <StringItem index="4" value="Hot Springs Park  Da Nang"/>
+                <StringItem index="5" value="3D Museum Art in paradise Da Nang"/>
+                <StringItem index="6" value="Upside Down World"/>
+                <StringItem index="7" value="Da Nang Museum of Cham Sculpture"/>
+                <StringItem index="8" value="Nam O Reef"/>
+                <StringItem index="9" value="Hoa Phu Thanh Waterfall"/>
+                <StringItem index="10" value="Mikazuki Water Park"/>
+                <StringItem index="11" value="Hoi An Ancient Town"/>
+                <StringItem index="12" value="Cham Islands"/>
+                <StringItem index="13" value="My Son Sanctuary"/>
+                <StringItem index="14" value="Hoi An Impression Park"/>
+                <StringItem index="15" value="Nam Hoi An VinWonders"/>
+                <StringItem index="16" value="Bay Mau Coconut Forest"/>
+                <StringItem index="17" value="Asia Park Da Nang"/>
+                <StringItem index="18" value="Han River"/>
+                <StringItem index="19" value=" "/>
               </StringArray>
             </Property>
           </Properties>

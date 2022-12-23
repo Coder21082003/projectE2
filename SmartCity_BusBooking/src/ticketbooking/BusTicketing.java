@@ -92,7 +92,7 @@ public class BusTicketing extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(129, 129, 129)
+                .addGap(279, 279, 279)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 790, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -126,7 +126,7 @@ public class BusTicketing extends javax.swing.JFrame {
         jLabel13.setText("Amount Paid");
 
         jLabel14.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
-        jLabel14.setText("No. of Passangers ");
+        jLabel14.setText("No.of Passangers ");
 
         jLabel15.setFont(new java.awt.Font("Times New Roman", 1, 22)); // NOI18N
         jLabel15.setText("Ticket Type");
@@ -313,7 +313,7 @@ public class BusTicketing extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
         jLabel2.setText("Destinantion ");
 
-        jComboBoxDestination.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Destination ", "Himamaylan", "Binalbagan", "Kabankalan", "Bacolod", "Hinigaran", "Isabela" }));
+        jComboBoxDestination.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ba Na Hills", "Son Tra Penisula", "The Marble Mountains", "Han Market", "Hot Springs Park  Da Nang", "3D Museum Art in paradise Da Nang", "Upside Down World", "Da Nang Museum of Cham Sculpture", "Nam O Reef", "Hoa Phu Thanh Waterfall", "Mikazuki Water Park", "Hoi An Ancient Town", "Cham Islands", "My Son Sanctuary", "Hoi An Impression Park", "Nam Hoi An VinWonders", "Bay Mau Coconut Forest", "Asia Park Da Nang", "Han River", " " }));
         jComboBoxDestination.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBoxDestinationActionPerformed(evt);
@@ -391,18 +391,19 @@ public class BusTicketing extends javax.swing.JFrame {
                             .addComponent(jComboBoxTime, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jRadioButtonFirstClass1)
-                                        .addGap(18, 18, 18))
                                     .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jRadioButtonSingle1)
-                                        .addGap(50, 50, 50)))
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jRadioButtonReturn1)
-                                    .addComponent(jRadioButtonEconomy1)))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jDateChooser, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 57, Short.MAX_VALUE)))))
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jRadioButtonFirstClass1)
+                                                .addGap(18, 18, 18))
+                                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jRadioButtonSingle1)
+                                                .addGap(50, 50, 50)))
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jRadioButtonReturn1)
+                                            .addComponent(jRadioButtonEconomy1)))
+                                    .addComponent(jDateChooser, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 0, Short.MAX_VALUE)))))
                 .addContainerGap(47, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -555,7 +556,7 @@ public class BusTicketing extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(30, 30, 30)
+                        .addGap(33, 33, 33)
                         .addComponent(jButtonTotal)
                         .addGap(29, 29, 29)
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
